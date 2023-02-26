@@ -28,7 +28,7 @@ public class vista extends JFrame {
         textField.setText(mensaje);
     }
 
-    public void agregarListener(ActionListener listener) {
-        button.addActionListener(listener);
+    public void setControlador(controlador controlador) {
+        button.addActionListener(controlador);
     }
 }
